@@ -1,0 +1,38 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "lodash",
+    "syntax-dynamic-import",
+    "syntax-async-functions",
+    "transform-async-to-generator",
+    "transform-regenerator",
+    "transform-async-generator-functions",
+    "transform-object-rest-spread",
+    "transform-export-extensions",
+    "transform-class-properties",
+    ["module-resolver", {
+      "root": [".", "./src", "./lib"],
+      "extensions": [
+        ".js",
+        ".abstract.js",
+        ".action.js",
+        ".component.js",
+        ".concern.js",
+        ".container.js",
+        ".element.js",
+        ".mixed.js",
+        ".helper.js",
+        ".middleware.js",
+        ".subscription.js",
+        ".misc.js",
+        ".reducer.js",
+        ".resource.js",
+        ".selector.js",
+        ".service.js"
+      ]
+    }]
+  ]
+}

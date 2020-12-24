@@ -109,7 +109,7 @@
     "classnames": "2.2.6",
     "clean-deep": "^3.0.2",
     "copy-to-clipboard": "3.0.8",
-    "date-and-time": "0.6.2",
+    "date-and-time": "0.14.2",
     "dateformat": "2.2.0",
     "deepmerge": "1.5.2",
     "escape-html": "1.0.3",
